@@ -712,6 +712,10 @@ def get_county_df():
     # 2. load election data
     election_df = get_county_election_df()[['prop_dem', 'prop_rep']]
     county_df = county_df.merge(election_df, left_on='FIPS', right_index=True, how='outer')
+    
+    # 3. add state abbreviation based on code
+    code2abbr = get_state_code_to_state_abbr()
+    county_df['state'] = county_df.FIPS.apply(lambda x: code2abbr[get_state_code_from_fips(x)])
     return county_df.set_index('FIPS')
 
 def get_county_election_df(year=2020):
