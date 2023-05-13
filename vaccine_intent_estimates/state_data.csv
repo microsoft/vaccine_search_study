@@ -1,0 +1,52 @@
+abbr,state,prop_vaccine_intent,prop_vaccine_intent_lower,prop_vaccine_intent_upper
+AL,Alabama,0.25,0.25,0.26
+AK,Alaska,0.22,0.22,0.23
+AZ,Arizona,0.31,0.31,0.31
+AR,Arkansas,0.22,0.21,0.22
+CA,California,0.28,0.28,0.28
+CO,Colorado,0.31,0.3,0.31
+CT,Connecticut,0.4,0.4,0.4
+DE,Delaware,0.36,0.36,0.36
+DC,District of Columbia,0.31,0.3,0.31
+FL,Florida,0.32,0.32,0.32
+GA,Georgia,0.25,0.25,0.25
+HI,Hawaii,0.31,0.3,0.31
+ID,Idaho,0.22,0.22,0.23
+IL,Illinois,0.31,0.3,0.31
+IN,Indiana,0.26,0.26,0.26
+IA,Iowa,0.29,0.29,0.29
+KS,Kansas,0.25,0.25,0.25
+KY,Kentucky,0.29,0.28,0.29
+LA,Louisiana,0.21,0.21,0.21
+ME,Maine,0.36,0.36,0.37
+MD,Maryland,0.34,0.33,0.34
+MA,Massachusetts,0.42,0.42,0.42
+MI,Michigan,0.29,0.29,0.29
+MN,Minnesota,0.31,0.31,0.31
+MS,Mississippi,0.22,0.22,0.23
+MO,Missouri,0.28,0.28,0.28
+MT,Montana,0.21,0.21,0.21
+NE,Nebraska,0.25,0.24,0.25
+NV,Nevada,0.28,0.27,0.28
+NH,New Hampshire,0.36,0.35,0.36
+NJ,New Jersey,0.35,0.35,0.35
+NM,New Mexico,0.29,0.29,0.3
+NY,New York,0.34,0.34,0.34
+NC,North Carolina,0.27,0.26,0.27
+ND,North Dakota,0.2,0.2,0.2
+OH,Ohio,0.31,0.31,0.31
+OK,Oklahoma,0.22,0.22,0.23
+OR,Oregon,0.35,0.35,0.35
+PA,Pennsylvania,0.33,0.33,0.33
+RI,Rhode Island,0.41,0.4,0.41
+SC,South Carolina,0.29,0.29,0.29
+SD,South Dakota,0.19,0.19,0.2
+TN,Tennessee,0.25,0.25,0.25
+TX,Texas,0.24,0.24,0.25
+UT,Utah,0.27,0.26,0.27
+VT,Vermont,0.37,0.37,0.38
+VA,Virginia,0.31,0.31,0.31
+WA,Washington,0.32,0.32,0.32
+WV,West Virginia,0.26,0.26,0.27
+WI,Wisconsin,0.3,0.3,0.3
+WY,Wyoming,0.19,0.18,0.19
