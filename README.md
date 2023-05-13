@@ -1,4 +1,4 @@
-# Project
+## Introduction
 
 <!-- > This repo has been populated by an initial template to help get you started. Please
 > make sure to update the content to build a great experience for community-building.
@@ -10,7 +10,7 @@ As the maintainer of this project, please make a few updates:
 - Understanding the security reporting process in SECURITY.MD
 - Remove this section from the README -->
 
-Code to generate results in "Accurate Measures of Vaccination and Concerns of Vaccine Holdouts from Web Search Logs" (2023) by Serina Chang, Adam Fourney, and Eric Horvitz.
+This repository contains code and data for "Accurate Measures of Vaccination and Concerns of Vaccine Holdouts from Web Search Logs" (2023) by Serina Chang, Adam Fourney, and Eric Horvitz.
 
 ## Python files
 ``analyze_cdc_records.py``: functions to load and analyze data from CDC.
