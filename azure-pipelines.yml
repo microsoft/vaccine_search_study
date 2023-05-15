@@ -1,6 +1,13 @@
 trigger:
 - main
-
+schedules:
+- cron: '0 12 * * 0'
+  displayName: Weekly Sunday build
+  branches:
+    include:
+    - main
+  always: true
+  
 pool:
   vmImage: 'windows-latest'
 
