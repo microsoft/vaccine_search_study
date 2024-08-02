@@ -10,7 +10,7 @@ As the maintainer of this project, please make a few updates:
 - Understanding the security reporting process in SECURITY.MD
 - Remove this section from the README -->
 
-This repository contains code and data for ["Accurate Measures of Vaccination and Concerns of Vaccine Holdouts from Web Search Logs"](https://arxiv.org/abs/2306.07457) (2023) by Serina Chang, Adam Fourney, and Eric Horvitz.
+This repository contains code and data for ["Measuring vaccination coverage and concerns of vaccine holdouts from web search logs"](https://www.nature.com/articles/s41467-024-50614-4) by Serina Chang, Adam Fourney, and Eric Horvitz, published in _Nature Communications_ (2024).
 
 ## Python files
 ``analyze_cdc_records.py``: functions to load and analyze data from CDC.
@@ -33,7 +33,7 @@ This repository contains code and data for ["Accurate Measures of Vaccination an
 ``vaccine_intent_rates.ipynb``: estimating regional vaccine intent rates, comparison to CDC, demographic trends.
 
 ## Vaccine intent estimates
-We release estimates of regional vaccine intent rates based on our vaccine intent classifier, with estimates corrected for non-uniform Bing coverage. See Methods M3 of the paper for details.
+We release estimates of regional vaccine intent rates based on our vaccine intent classifier, with estimates corrected for non-uniform Bing coverage. See Methods, "Coverage-corrected vaccine intent rates", for details.
 
 ``state_data.csv``: for each US state and Washington, D.C., we provide its estimated vaccine intent rate (with 95% CIs).
 
@@ -41,8 +41,8 @@ We release estimates of regional vaccine intent rates based on our vaccine inten
 
 ``zcta_data.csv``: for each US ZIP code tabulation area (ZCTA), we provide its population size based on the 2020 5-year American Community Survey and mapping to US county, based on largest overlap in land area. We provide estimated vaccine intent rates (with 95% CIs) for 20,899 ZCTAs (97.6% of the total population).
 
-## Ontology
-Our hierarchical ontology consists of 4 levels: URLs, URL clusters, subcategories, and top categories. We use Louvain community detection to automatically partition vaccine-related URLs into clusters, then we manually label clusters with 1-2 subcategories and organize subcategories into top categories. Here, we report click and user counts based on the clicks of holdouts and their matched early adopters from April to August 2021. See Methods M4 of the paper for details.
+## Taxonomy
+Our hierarchical taxonomy consists of 4 levels: URLs, URL clusters, subcategories, and top categories. We use Louvain community detection to automatically partition vaccine-related URLs into clusters, then we manually label clusters with 1-2 subcategories and organize subcategories into top categories. Here, we report click and user counts based on the clicks of holdouts and their matched early adopters from April to August 2021. See Methods, "Constructing a taxonomy of search concerns", for details.
 
 ``ontology_subcats.csv``: maps subcategory to top category. Each row represents a subcategory, its number of URLs and clicks, and its top category.
 
