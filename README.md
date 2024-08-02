@@ -28,7 +28,7 @@ This repository contains code and data for ["Measuring vaccination coverage and 
 
 ``classifier_results.ipynb``: results from vaccine intent classifier.
 
-``holdout_analyses.ipynb``: constructing ontology, analyzing news/vaccine concerns of vaccine holdouts.
+``holdout_analyses.ipynb``: constructing taxonomy, analyzing news/vaccine concerns of vaccine holdouts.
 
 ``vaccine_intent_rates.ipynb``: estimating regional vaccine intent rates, comparison to CDC, demographic trends.
 
@@ -44,11 +44,11 @@ We release estimates of regional vaccine intent rates based on our vaccine inten
 ## Taxonomy
 Our hierarchical taxonomy consists of 4 levels: URLs, URL clusters, subcategories, and top categories. We use Louvain community detection to automatically partition vaccine-related URLs into clusters, then we manually label clusters with 1-2 subcategories and organize subcategories into top categories. Here, we report click and user counts based on the clicks of holdouts and their matched early adopters from April to August 2021. See Methods, "Constructing a taxonomy of search concerns", for details.
 
-``ontology_subcats.csv``: maps subcategory to top category. Each row represents a subcategory, its number of URLs and clicks, and its top category.
+``taxonomy_subcats.csv``: maps subcategory to top category. Each row represents a subcategory, its number of URLs and clicks, and its top category.
 
-``ontology_clusters.csv``: maps cluster to subcategory. Each row represents a cluster, its number of URLs and clicks, and its assigned 1-2 subcategories.
+``taxonomy_clusters.csv``: maps cluster to subcategory. Each row represents a cluster, its number of URLs and clicks, and its assigned 1-2 subcategories.
 
-``ontology_urls.csv``: maps URL to cluster. Each row represents a URL, its number of clicks and number of users who clicked on it (among holdouts and early adopters), its assigned cluster, and the proportion of cluster clicks that this URL accounts for. For privacy reasons, we only include URLs that were clicked on by at least 10 users, which leaves 13,043 URLs.
+``taxonomy_urls.csv``: maps URL to cluster. Each row represents a URL, its number of clicks and number of users who clicked on it (among holdouts and early adopters), its assigned cluster, and the proportion of cluster clicks that this URL accounts for. For privacy reasons, we only include URLs that were clicked on by at least 10 users, which leaves 13,043 URLs.
 
 ## Contributing
 
